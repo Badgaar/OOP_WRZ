@@ -7,6 +7,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
         String s = scanner.nextLine();
-        System.out.println(s);
+        String rev = new StringBuilder(s).reverse().toString();
+        System.out.println(rev);
     }
 }
